@@ -17,7 +17,7 @@
     <body>
         <div class="container-fluid">
             <header class="jumbotron text-center" id="topo">
-                <h1>SENAI/SC Brusque</h1>
+                <h1>SENAI/SC - Brusque</h1>
                 <form role="form">
                      <div class="form-inline">
                     <div class="input-group input-group-sm">
