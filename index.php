@@ -11,20 +11,12 @@
         <!-- Javascript-->
         <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/bootstrap.js" ></script>
-        <script src="js/meuscript.js"></script>
+        
         <link rel="shortcut icon" href="http://sc.senai.br/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <style>
-            .carousel-inner > .item > img,
-            .carousel-inner > .item > a > img {
-                width: 70%;
-                margin: auto;
-            }
-        </style>
-
-
+       
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -155,6 +147,7 @@
             </div>
 
 
-        </div>   
+        </div>
+        <script src="js/meuscript.js"></script>
     </body>
 </html>

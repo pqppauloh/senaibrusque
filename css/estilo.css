@@ -42,5 +42,8 @@
   #section6 {padding-top:50px;height:600px;color: #fff; background-color: #f0ad4e;}
   #section7 {padding-top:50px;height:600px;color: #fff; background-color: brown;}
   
-  
-  
+   .carousel-inner > .item > img,
+            .carousel-inner > .item > a > img {
+                width: 70%;
+                margin: auto;
+            }
