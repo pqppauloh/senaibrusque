@@ -1,49 +1,72 @@
 /* 
-    Created on : 13/11/2015, 21:33:14
-    Author     : Paulo H
+    Created on : 13/11/2015, 20:34:37
+    Author     : Tarcísio Nunes
 */
 
 #topo{
     background-color: #017338;
     color: whitesmoke;
-    height: 200px;
+    height: 250px;
 }
 
 
+/**
+Topo Jumbotron
+*/
 
-  body {
-      position: relative; 
-  }
-  .jumbotron{
-      margin: 0;
-  }
-  
-  
-  .affix {
-      top:0;
-      width: 100%;
-      z-index: 9999 !important;
-  }
-  .navbar {
-      margin-bottom: 0px;
-      border-radius: 0;
-      background-color: #015135;
-  }
+.jumbotron{
+    margin: 0;
+}
 
-  .affix ~ .container-fluid {
-     position: relative;
-     top: 50px;
+/**
+Menu afixado
+*/
+
+body {
+    position: relative; 
+}
+
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0;
+    background-color: #115c35;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+/**
+Seções
+*/
+#inicio {padding-top:50px;height:500px;color: #fff; background-color: whitesmoke; padding: 0;}
+#cursos {padding-top:50px;height:600px;color: #fff; background-color: #673ab7;}
+#noticias {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#fotos {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#videos {padding-top:50px;height:500px;color: #fff; background-color: red;}
+#contato {padding-top:50px;height:500px;color: #fff; background-color: green;}
+#local {padding-top:50px;height:500px;color: #fff; background-color: blue;}
+
+
+/**
+Carrossel de imagens
+*/
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%; height: 500px;
+      margin: auto;
   }
-  #section1 {padding-top:50px;height:600px;color: #fff; background-color: #1E88E5;}
-  #section2 {padding-top:50px;height:600px;color: #fff; background-color: #673ab7;}
-  #section3 {padding-top:50px;height:600px;color: #fff; background-color: #ff9800;}
-  #section4 {padding-top:50px;height:600px;color: #fff; background-color: #00bcd4;}
-  #section5 {padding-top:50px;height:600px;color: #fff; background-color: red;}
-  #section6 {padding-top:50px;height:600px;color: #fff; background-color: #f0ad4e;}
-  #section7 {padding-top:50px;height:600px;color: #fff; background-color: brown;}
-  
-   .carousel-inner > .item > img,
-            .carousel-inner > .item > a > img {
-                width: 70%;
-                margin: auto;
-            }
+ 
+  /**
+  Personalizar o ícone de dentro de formulário
+  */
+  .has-feedback{
+      color: darkslategray;
+  }
