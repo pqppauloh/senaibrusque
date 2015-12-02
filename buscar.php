@@ -1,6 +1,6 @@
-<? include ("include/topo.php"); ?>
+<?php include ("include/topo.php"); ?>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-top: 0.3em">
-<?
+<?php
 $por = $_POST['por'];
 $valor = $_POST['valor'];
 if (empty($por) || empty($valor)){
@@ -27,11 +27,11 @@ $sql=mysql_query("SELECT ido,categoria,titulo,texto,data FROM noticias WHERE dat
 }
 $linhas=@mysql_num_rows($sql);
 if ($linhas==0){
-echo "<BR><BR><BR><p align='center'><h2><b>Não</b> Há Resultados com essa Pesquisa</p></h2><br>";
+echo "<BR><BR><BR><p align='center'><h2><b>Nï¿½o</b> Hï¿½ Resultados com essa Pesquisa</p></h2><br>";
 }
 ?>
 <tr><td class="preto" style="padding-left: 0.2em; padding-bottom: 1.5em">Encontrado(s) <font color="red"><? echo "$linhas"; ?></font> resultado(s) da busca por <font color="red"><? echo "$valor"; ?></font></td></tr>
-<?
+<?php
 if ($linhas >=1){
 while ($reg = mysql_fetch_array($sql)){
 $id = $reg['id'];
@@ -47,16 +47,16 @@ $titulo = substr($titulo, 0,$limit);
 if ($foto==''){
 echo "<tr><td aling='left' valign='middle' style='padding-top: 0.2em; padding-left: 0.2em'>
       <font class='cat_data_hora'><b>$categoria</b> - $data</font><br>
-      <a href='exibir.php?noticia=$id' class='sub'>$titulo...</a> <img src='img/not.gif' width='14' height='14' alt='NOTÍCIA SOMENTE COM TEXTO'></td></tr>";
+      <a href='exibir.php?noticia=$id' class='sub'>$titulo...</a> <img src='img/not.gif' width='14' height='14' alt='NOTï¿½CIA SOMENTE COM TEXTO'></td></tr>";
 }else{
 echo "<tr><td aling='left' valign='middle' style='padding-top: 0.2em; padding-left: 0.2em'>
       <font class='cat_data_hora'><b>$categoria</b> - $data</font><br>
-      <a href='exibir.php?noticia=$id' class='sub'>$titulo...</a> <img src='img/maq.gif' width='14' height='14' alt='NOTÍCIA COM IMAGEM'></td></tr>";
+      <a href='exibir.php?noticia=$id' class='sub'>$titulo...</a> <img src='img/maq.gif' width='14' height='14' alt='NOTï¿½CIA COM IMAGEM'></td></tr>";
         }
        }
      }
    }
 ?>
 </table>
-<? include ("buscador.php"); ?>
-<? include ("include/base.php"); ?>
+<?php include ("buscador.php"); ?>
+<?php include ("include/base.php"); ?>
