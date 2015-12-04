@@ -150,9 +150,9 @@
 
             <!-- Fim da Modal -->
         </div><!-- Painel notícia 3-->
-    </div>
+   
     
-    <div class="row"><!-- Linha 2-->
+    
         <!-- Painel de Notícia 4-->
         <div class="panel panel-success col-lg-3 col-md-3 col-sm-3">
             <div class="panel-heading">Título da Notícia 4</div>
@@ -302,10 +302,10 @@
 
             <!-- Fim da Modal -->
         </div><!-- Painel notícia 3-->
-    </div>
+ 
 
     
-    <div class="row"><!-- Linha 3-->
+   
         <!-- Painel de Notícia 7-->
         <div class="panel panel-success col-lg-3 col-md-3 col-sm-3">
             <div class="panel-heading">Título da Notícia 7</div>

@@ -2,12 +2,12 @@
     <h1>Cursos</h1>
     <div class="row"><!-- Linha 1-->
         <!-- Painel de Notícia 1-->
-        <div class="panel panel-success col-lg-3 col-md-3 col-sm-3">
+        <div class="panel panel-success col-lg-3 col-md-3 col-sm-3" id="mover">
             <div class="panel-heading">Título do curso 1</div>
             <div class="panel-body">Resumo do curso 1...</div>
 
             <!-- botão que dispara a modal -->
-            <button type="button" class="btn btn-success center" data-toggle="modal" data-target="#curso1">leia mais...</button>
+            <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#curso1">leia mais...</button>
 
             <!-- Modal -->
             <div id="curso1" class="modal fade" role="dialog">
@@ -48,12 +48,12 @@
         </div><!-- Painel notícia 1-->
         
         <!-- Painel de Notícia 2-->
-        <div class="panel panel-success col-lg-3 col-md-3 col-sm-3">
+        <div class="panel panel-success col-lg-3 col-md-3 col-sm-3" id="mover">
             <div class="panel-heading">Título do curso 2</div>
             <div class="panel-body">Resumo do curso 2...</div>
 
             <!-- botão que dispara a modal -->
-            <button type="button" class="btn btn-success center" data-toggle="modal" data-target="#curso2">leia mais...</button>
+            <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#curso2">leia mais...</button>
 
             <!-- Modal -->
             <div id="curso2" class="modal fade" role="dialog">
@@ -93,12 +93,12 @@
         </div><!-- Painel notícia 2-->
 
         <!-- Painel de Notícia 3-->
-        <div class="panel panel-success col-lg-3 col-md-3 col-sm-3">
+        <div class="panel panel-success col-lg-3 col-md-3 col-sm-3" id="mover">
             <div class="panel-heading">Título do curso 3</div>
             <div class="panel-body">Resumo do curso 3...</div>
 
             <!-- botão que dispara a modal -->
-            <button type="button" class="btn btn-success center" data-toggle="modal" data-target="#curso3">leia mais...</button>
+            <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#curso3">leia mais...</button>
 
             <!-- Modal -->
             <div id="curso3" class="modal fade" role="dialog">

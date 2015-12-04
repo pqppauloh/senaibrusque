@@ -138,4 +138,4 @@ Carrossel de imagens
   .modal{margin-top: 50px;}
   .modal-content p{text-align: justify;}
   
- @media (min-width:768px){ .col-sm-3{width : 32.9%; margin-left: 5px; }}
+#cursos .panel{margin-left: 5%;padding: 10px;}
