@@ -8,16 +8,14 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
+      
     </head>
+    <body>
     <header class="jumbotron text-center" id="topo">
-        <h1>SENAI/SC Brusque</h1>
-        <p>Alo Ha mundo do Bootstrap</p>
-
-
-
-
-        <body>
-            <form role="form" class="form-inline" action="cadastro.php" method="post">
+      
+     
+        
+            <form role="form" class="form-inline" action="cadastro.php" method="post" id="cadas">
                 <!-- Gerador de Bootstrap Form 
                      http://embed.plnkr.co/ZrnnkFR3Yv9HGQHrRMiW/preview -->
                 <!-- Em caso de sucesso na validação: <div class="form-group has-feedback has-success"> -->

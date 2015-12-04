@@ -1,17 +1,25 @@
-/* 
-    Created on : 13/11/2015, 20:34:37
-    Author     : Tarcísio Nunes
-*/
-
-.modal-content{
-    margin-top: 20%;
-    
+#div1{
+    position: relative;
+    float: right;
+    bottom: 265px;
+        
 }
 
-.modal-body{
-    color:black;
+
+#imageum{
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
 }
 
+
+
+
+
+
+.text-cadastro{
+    color: #fff;
+}
 
 #topo{
     background-color: #017338;
@@ -56,12 +64,12 @@ body {
 Seções
 */
 #inicio {padding-top:50px;height:500px;color: #fff; background-color: whitesmoke; padding: 0;}
-#cursos {padding-top:50px;height:600px;color: #fff; background-color: #673ab7; width:100%;}
-#noticias {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#cursos {padding-top:50px;height:600px;color: #fff; background-color: #673ab7;color:black;}
+#noticias {padding-top:50px;height:auto;color: darkslategrey; background-color: whitesmoke;}
 #fotos {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-#videos {padding-top:50px;height:500px;color: #fff; background-color: red;}
-#contato {padding-top:50px;height:500px;color: #fff; background-color: green;}
-#local {padding-top:50px;height:500px;color: #fff; background-color: blue;}
+#videos {padding-top:50px;height:500px;color: #fff; background-color: whitesmoke;}
+#contato {padding-top:50px;height:auto;color: #fff; background-color: #D48888;}
+#local {padding-top:50px;height:600px;color: #fff; background-color: cyan;}
 
 
 /**
@@ -69,27 +77,65 @@ Carrossel de imagens
 */
 
 .carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 80%; height: 500px;
-    margin: auto;
-}
-
-/**
-Personalizar o ícone de dentro de formulário
-*/
-.has-feedback{
-    color: darkslategray;
-}
-
-img{
-    width: 100px;
-    height: 100px;
-    border-radius: 180px;
-}
-
-#div1{
-    float: right;
-
-    top:-265px;
-    
-}
+  .carousel-inner > .item > a > img {
+      width: 80%; height: 500px;
+      margin: auto;
+  }
+ 
+  /**
+  Personalizar o ícone de dentro de formulário
+  */
+  .has-feedback{
+      color: darkslategrey;
+  }
+  
+  #local h1,#videos h1,#contato h1{
+      color: darkslategrey;
+      font-family: 'Oswald', sans-serif;
+  }
+  
+  #contato h1{margin-bottom: 20px;}
+  
+  #contato p{
+      color: darkslategrey;
+      font-family: arial;
+      padding: 5px;
+  }
+  
+  #contato input, #contato textarea, #contato button{
+      margin: 5px;
+      padding: 10px;
+      
+  }
+  
+  #local iframe,#videos iframe{
+      box-shadow: 5px 5px 10px black;
+  }
+  
+  #contato .glyphicon{
+      color: darkslategrey;
+  }
+  
+  /*Estlizando o formulário de contato*/
+  #contactForm .h4{
+     color: darkslategrey; 
+  }
+  
+  /**
+  * Sistema de Notícias
+  */
+  #noticias .panel{
+      margin-left: 5%;
+      padding: 10px;
+  }
+  #noticias  .pagination li a{color: darkslategray;}
+  
+  #noticias  .pagination  .active  a{
+      background-color: #449D44;
+      border-color: #449D44;    
+      color: lightgreen;
+  }
+  .modal{margin-top: 50px;}
+  .modal-content p{text-align: justify;}
+  
+ @media (min-width:768px){ .col-sm-3{width : 32.9%; margin-left: 5px; }}
