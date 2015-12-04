@@ -91,15 +91,15 @@
                             </div>
 
                             <div class="item">
-                                <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=460%C3%97365&w=460&h=365" alt="Chania">
+                                <img src="img/saiba_mais_sobre_o_senai.png" alt="Chania">
                             </div>
 
                             <div class="item">
-                                <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=460%C3%97365&w=460&h=365" alt="Flower">
+                               <img src="img/saiba_mais_sobre_o_senai.png" alt="Chania">
                             </div>
 
                             <div class="item">
-                                <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=460%C3%97365&w=460&h=365" alt="Flower">
+                                <img src="img/saiba_mais_sobre_o_senai.png" alt="Chania">
                             </div>
                         </div>
 
